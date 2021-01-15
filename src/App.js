@@ -7,17 +7,31 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Timofej Jermolaev</h1>
-        <p>
-          Renegade Program, working on a decentralized future.
-        </p>
-        <a
+        <p>Renegade Program, working on a decentralized future.</p>
+        <span
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
         >
-          Learn React
-        </a>
+          <div className="links" >
+            <a
+              className="fa fa-instagram"
+              href="https://www.instagram.com/timofeji/"
+            ></a>
+            <a
+              className="fa fa-linkedin-square"
+              href="https://www.linkedin.com/in/tim-jermolaev-213409137/"
+            ></a>
+            <a
+              className="fa fa-twitter-square"
+              href="https://twitter.com/timofejii"
+            ></a>
+            <a
+              className="fa fa-envelope"
+              href="mailto:webmaster@tim@drop.software"
+            ></a>
+          </div>
+        </span>
+
+        <div></div>
       </header>
     </div>
   );
