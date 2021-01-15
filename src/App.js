@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './gear.svg';
 import './App.css';
 
 function App() {
@@ -6,8 +6,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Timofej Jermolaev</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Renegade Program, working on a decentralized future.
         </p>
         <a
           className="App-link"
