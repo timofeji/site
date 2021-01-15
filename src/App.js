@@ -33,7 +33,7 @@ function App() {
             ></a>
             <a
               className="fa fa-envelope"
-              href="mailto:webmaster@tim@drop.software"
+              href="mailto:tim@drop.software"
             ></a>
           </div>
         </span>

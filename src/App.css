@@ -33,11 +33,8 @@ a{
 
 .eths{
   color: #3cff00;
-  margin: 40px;
-}
-
-.App-link {
-  color: #61dafb;
+  display: flex; /* or block */
+  overflow: auto;
 }
 
 @keyframes App-logo-spin {
