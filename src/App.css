@@ -1,8 +1,12 @@
 .App {
+  position: absolute;
   text-align: center;
+  width: 100vw;
+  z-index: 2;
 }
 
 .App-logo {
+  fill:white;
   height: 40vmin;
   pointer-events: none;
 }
@@ -12,9 +16,7 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,13 +28,17 @@
 
 a{
   margin: 15px;
-  color: #3cff00;
+  color: #00ff15;
   display: inline-block; /* or block */
   text-decoration: none
 }
+a:hover {
+  color:white;
+}
 
 .eths{
-  color: #3cff00;
+
+  color: #00ff15;
   display: flex; /* or block */
   overflow: auto;
 }
