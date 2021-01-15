@@ -1,5 +1,5 @@
-import logo from './gear.svg';
-import './App.css';
+import logo from "./gear.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -23,12 +23,20 @@ function App() {
               href="https://twitter.com/timofejii"
             ></a>
             <a
+              className="fa fa-youtube-square"
+              href="https://www.youtube.com/channel/UC6iiBdBZKMZbUZkf-qsfX2g"
+            ></a>
+
+            <a
+              className="fa fa-twitch"
+              href="https://twitch.tv/dropgamesinc"
+            ></a>
+            <a
               className="fa fa-envelope"
               href="mailto:webmaster@tim@drop.software"
             ></a>
           </div>
         </span>
-
         <br></br>
         <br></br>
         <br></br>
