@@ -8,10 +8,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Timofej Jermolaev</h1>
         <p>Renegade Program, working on a decentralized future.</p>
-        <span
-          className="App-link"
-        >
-          <div className="links" >
+        <span className="App-link">
+          <div className="links">
             <a
               className="fa fa-instagram"
               href="https://www.instagram.com/timofeji/"
@@ -31,6 +29,12 @@ function App() {
           </div>
         </span>
 
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        send me ur eths lol:
+        <span className="eths">0x73e858aE72bd2B1Fa7EDfe91d277309A6467b944</span>
         <div></div>
       </header>
     </div>
