@@ -26,6 +26,10 @@ function App() {
               className="fa fa-youtube-square"
               href="https://www.youtube.com/channel/UC6iiBdBZKMZbUZkf-qsfX2g"
             ></a>
+            <a
+              className="fa fa-github-square"
+              href="https://github.com/timofeji"
+            ></a>
 
             <a
               className="fa fa-twitch"
