@@ -7,11 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+canvas {
+  width: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-body {background: white;}
+body {background: black;}
 canvas {display: block; z-index: -100;}
 
